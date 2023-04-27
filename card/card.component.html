@@ -1,0 +1,15 @@
+<div class="card-header">
+   <div class="header"><h1 *ngFor="let cards of card" class="container">{{cards.header}}</h1></div>
+   <div class="date" *ngFor="let cards of card" ><p>{{cards.date}}</p></div> 
+<div class="cards container">
+    <div class="card-group" *ngFor="let cards of card">
+        <div class="card">
+          <img [src]="cards.img" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title container">{{cards.title}}</h5>
+            <p class="card-text container">{{cards.text}}</p>
+          </div>
+        </div>
+      </div>
+</div>
+</div>

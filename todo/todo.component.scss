@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Poppins:ital,wght@0,100;0,800;1,500;1,600;1,700;1,800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+div{
+    display: flex;
+    .name-text{
+        width: 660px;
+        height: 271px;
+        padding:50px;
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        background: hsl(0, 0%, 100%);
+        box-shadow: 50px 40px 115px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        left: 260px;
+        margin-top: 70px;
+        .plus{
+        position: absolute;
+        left: 530px;
+        top: -18px;
+        }
+        .name{
+            font-size: 30px;
+            color: hsl(0, 0%, 9%);
+            font-weight: 600;
+      
+        }
+        .text{
+            font-size: 17px;
+            color: hsl(0, 0%, 60%);
+            line-height: 2;
+            width: 550px;
+        }
+    }
+    .img{
+    // position: relative;
+    margin: 20px;
+    img{
+        width: 360px;
+        height: 416px;
+    }
+    }
+}
